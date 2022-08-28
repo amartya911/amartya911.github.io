@@ -1,2 +1,2 @@
-# coursera-test
+# coursera-test trial
 Coursera test respository
