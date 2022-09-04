@@ -1,0 +1,70 @@
+
+
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+
+		}
+
+
+		h1 {
+			margin-top: 20px;
+			text-align: center;
+		}
+
+		.container{
+
+			background-color: lightyellow;
+			position: relative;
+			top: 60px;
+			padding: 10px;
+			margin: 20px;
+			border: 1px solid black;
+			float: left;
+		}
+
+		p {
+			width: 70px;
+			height: 25px;
+			position: absolute;	
+			top: 0;
+			right: 0;
+			background-color: orange;
+			border: 1px solid black;
+			text-align: center;
+
+		}
+
+		.desc{
+			margin-top: 6%;
+		}
+
+		#p1 {
+
+			background-color: skyblue;
+		}
+
+		#p2 {
+
+			background-color: springgreen;
+		}
+
+
+		@media (min-width: 992px) {
+			.container {
+
+				width: 30%;
+
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+
+			.container {
+				
+				width: 40%;
+
+			}
+
+		}
